@@ -1,0 +1,162 @@
+repo_name: skerbis/php-feed-parser
+report_id: d4a16f6b620a5aac6907c9a11aa97411
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:36:57+00:00'
+requested_by: teclone
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2018-08-19 15:12:21.000000000 Z
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/skerbis/php-feed-parser
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/skerbis/php-feed-parser
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 7.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2018-08-18 14:28:04.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2018-08-25 09:42:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2018-08-19 15:12:21.000000000 Z
+- name: semantic-release
+  description: Fully automated version management and package publishing
+  website_url: https://github.com/semantic-release/semantic-release
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2020-03-21 16:49:00.000000000 Z
+- name: commitizen
+  description: Git commit, but play nice with conventions
+  package_url: https://www.npmjs.com/commitizen
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16008/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2020-03-21 16:49:00.000000000 Z
+- name: cz-conventional-changelog
+  description: Commitizen adapter following the conventional-changelog format
+  package_url: https://www.npmjs.com/cz-conventional-changelog
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15961/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2018-08-25 09:42:58.000000000 Z
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 17.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2020-03-21 16:49:00.000000000 Z
+  vulnerabilities:
+  - name: Secret disclosure when containing characters that become URI encoded
+    cve_id: CVE-2020-26226
+    cve_url: https://github.com/advisories/GHSA-r2j6-p67h-q639
+    detected_date: Aug 22
+    severity: high
+    first_patched: 17.2.3
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in semantic-release
+    cve_id: CVE-2022-31051
+    cve_url: https://github.com/advisories/GHSA-x2pg-mjhr-2m5x
+    detected_date: Jun 10
+    severity: moderate
+    first_patched: 19.0.3
+- name: semantic-release-cli
+  description: Setup automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release-cli
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18563/default_6da82767bd1deab23b3ba358ef0eacc041f4e200.png
+  detection_source_url: https://github.com/skerbis/php-feed-parser/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Harrison Ifeanyichukwu
+  last_updated_on: 2020-03-21 16:49:00.000000000 Z
